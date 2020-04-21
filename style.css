@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background-color: gray;
+}
+header{
+    width: 850px;
+    height: 500px;
+    background-color: blue;
+    margin: auto;
+
+    }
+    .picbox {
+        height: 350px;
+        width: 350px;
+        position: relative;
+        top: 150px;
+        z-index: 10;
+        left: 20px;
+        background-color: teal;
+    }    
+    .navbar{
+        background-color: honeydew;
+        height: 75px;
+        position: relative;
+        top: 100px;
+        border-block-start-width: 1px solid black;
+    }
+    .title{
+        left: 400px;
+        position: relative;
+        top: -100px;
+    }   
+    #buttons{
+        left: 600px;
+        top: -120px;
+        position: relative;
+    }
+    #like{
+        color: hotpink;
+    }
+
+    .links{
+        left: 400px;
+        top: -75px;
+        position: relative;
+
+    }
+
+    #leftbox{
+        width: 328px;
+        position: relative;
+        float: left;
+        top: 40px;
+        border: 1px solid black;
+    }
+    .container{
+        width: 850px;
+        margin: auto;
+    }
+    #rightbox{
+        width: 512px;
+        position: relative;
+        float: right;
+        top: 40px;
+        border: indigo 1px solid;
+    }
